@@ -1,0 +1,39 @@
+.calculator{ 
+    width: 400px; 
+    border: 5px red solid; 
+} 
+.calcrow{ 
+    display: flex; 
+    background-color: black; 
+    justify-content: space-between; 
+    margin-bottom: 0.5%; 
+    
+} 
+section{ 
+    background-color: rgb(32, 31, 31); 
+    color: white; 
+    text-align: right; 
+    padding: 20px 10px; 
+    font-size: 40px; 
+     
+} 
+.calcbutton{ 
+    background-color: #eeeff1; 
+    font-size: 40px; 
+    flex-basis: 24.5%; 
+} 
+.tripple{ 
+    flex-basis: 75%; 
+} 
+.double{ 
+    flex-basis: 49%; 
+} 
+.sign{ 
+    background-color: rgb(139, 99, 23); 
+}
+.sign:hover{ 
+    background-color: #dfb07e; 
+} 
+.name:hover{ 
+    background-color: #f1d9d9; 
+} 
